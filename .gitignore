@@ -1,0 +1,3 @@
+.vagrant/
+dev/npm-debug.log*
+dev/node_modules/*
