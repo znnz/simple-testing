@@ -14,9 +14,12 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |v|
     v.name = "devOps"
     v.memory = "3072"
+    v.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
   end
 
   config.vm.provision "shell" do |s|
     s.path = "provision/setup.sh"
   end
+
+  config.vm.provision "shell", path:"./provision/appsetup.sh", run:"always"
 end

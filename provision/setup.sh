@@ -25,11 +25,3 @@ sudo npm install serverless -g
 
 echo "update time zone"
 sudo ntpdate time.nist.gov
-
-sudo npm install typescript -g
-sudo npm install concurrently -g
-sudo npm install lite-server -g
-sudo npm config set bin-links false
-cd /var/www/html/dev
-sudo npm install --no-optional
-sudo npm start
