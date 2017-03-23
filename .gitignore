@@ -1,3 +1,7 @@
 .vagrant/
 dev/npm-debug.log*
 dev/node_modules/*
+
+devpro/npm-debug.log*
+devpro/node_modules/*
+node_modules/*

@@ -1,8 +1,6 @@
 #!/bin/bash
 
-sudo npm install -g typescript --no-bin-links
-sudo npm install -g concurrently --no-bin-links
-sudo npm install -g lite-server --no-bin-links
-cd /var/www/html/dev
-echo "before npm install"
-npm install --no-sys-links
+
+cd /var/www/html/devpro
+sudo npm install --no-bin-links
+ng serve --host 0.0.0.0 --poll=2000
