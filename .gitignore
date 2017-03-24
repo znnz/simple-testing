@@ -1,7 +1,45 @@
 .vagrant/
-dev/npm-debug.log*
-dev/node_modules/*
 
+# compiled output
+devpro/dist
+devpro/tmp
+devpro/out-tsc
+
+# dependencies
+devpro/node_modules/
+
+# error-logs
 devpro/npm-debug.log*
-devpro/node_modules/*
-node_modules/*
+
+# IDEs and editors
+devpro/.idea
+devpro/.project
+devpro/.classpath
+devpro/.c9/
+devpro/*.launch
+devpro/.settings/
+devpro/*.sublime-workspace
+
+# IDE - VSCode
+devpro/.vscode/*
+devpro/!.vscode/settings.json
+devpro/!.vscode/tasks.json
+devpro/!.vscode/launch.json
+devpro/!.vscode/extensions.json
+
+# misc
+devpro/.sass-cache
+devpro/connect.lock
+devpro/coverage
+devpro/libpeerconnection.log
+devpro/npm-debug.log
+devpro/testem.log
+devpro/typings
+
+# e2e
+devpro/e2e/*.js
+devpro/e2e/*.map
+
+# System Files
+devpro/.DS_Store
+devpro/Thumbs.db
